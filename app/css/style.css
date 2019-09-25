@@ -1,0 +1,50 @@
+
+* { margin: 0; padding: 0; list-style-type: none; }
+body { height: 4000px; background: #e6e6e6; }
+.lift-nav { position: fixed; top: 30%; left: 20px; display: none; }
+.lift-nav li { width: 20px; height: 20px; text-align: center; line-height: 20px;
+    border-radius:50px;
+    opacity: 0.9;
+    color: #fff; padding: 10px 10px; margin-bottom: 10px;
+    background: skyblue; cursor: pointer; }
+.lift-nav li.current { background: #4870a8; opacity: 1;}
+.map {
+    width: 1250px; height: 1000px;
+    margin-left:80px;
+    border-radius:20px;
+    text-align: center; line-height: 400px;
+    font-size: 30px; color: #fff;
+}
+.t1, .t2,  .t5, .t6 {
+    width: 900px; height: 640px;
+    border-radius:20px;
+    text-align: center; line-height: 400px;
+     margin: 100px auto; font-size: 30px; color: #fff;
+}
+.t3 {
+    width: 1200px; height: 600px;
+    border-radius:20px;
+    text-align: center; line-height: 400px;
+    margin: 100px auto; font-size: 30px; color: #fff;
+}
+.t4 {
+    width: 1200px; height: 2400px;
+    border-radius:20px;
+    text-align: center; line-height: 400px;
+    margin: 100px auto; font-size: 30px; color: #fff;
+}
+.map {
+    margin-top: 10px;
+}
+.t31{
+    float: left;
+    width:50%;
+    height: 500px;
+}
+.t32 {
+    float: right;
+    margin-left: 0;
+    width:50%;
+    height: 500px;
+}
+
